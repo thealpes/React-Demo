@@ -14,13 +14,14 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    <div>
+    <div className="Hero">
+        <div className="HeroGroup">
+        </div>
+    </div>
+    </div>
   </div>
-  <div>
-  <div className="Hero">
-      <div className="HeroGroup">
-      </div>
-  </div>
-</div>
+  <Link to="https://github.com/thealpes">Github</Link>
 )
 
 Layout.propTypes = {
